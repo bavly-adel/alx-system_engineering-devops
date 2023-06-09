@@ -1,2 +1,2 @@
 #!/bin/bash
-groups $(whoami) | cut -d: -f1
+groups $(whoami) | cut -d: -f1 | cut -c 1-
