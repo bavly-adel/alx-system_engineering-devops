@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -e '$p' -e '$!d' input_file >> input_file
